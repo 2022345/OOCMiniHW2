@@ -15,6 +15,12 @@ public class OOCMiniHW2 {
      */
     public static void main(String[] args) {
         
+        Car car = new Car ();
+        Motorcycle motorcycle = new Motorcycle ();
+        Airplane airplane = new Airplane ();
+        Ship ship = new Ship ();
+        
+        
     }
     
 }
