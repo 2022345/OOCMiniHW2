@@ -10,17 +10,12 @@ package oocminihw2;
  */
 public class Car extends Vehicle {
     
-    public Car ( String make, String type, int numwheels, int numPassengers){
+    public Car ( String make, String type,  int numPassengers){
         
         this.make = make;
         this.type = type;
-        this.numWheels = 4;
-        this.numPassengers = 5;
+        numWheels = 4;
+        this.numPassengers = numPassengers;
         
-    }
-
-    Car() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-    
+    } 
 }
