@@ -4,6 +4,8 @@
  */
 package oocminihw2;
 
+
+
 /**
  *
  * @author sweiss
@@ -15,7 +17,9 @@ public class OOCMiniHW2 {
      */
     public static void main(String[] args) {
         
-        Car car = new Car ();
+    
+        
+        Car car = new Car ("Fiat", "Gol", 5);
         Motorcycle motorcycle = new Motorcycle ();
         Airplane airplane = new Airplane ();
         Ship ship = new Ship ();
